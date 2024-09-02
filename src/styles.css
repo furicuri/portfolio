@@ -1,0 +1,240 @@
+/* fonts */
+@font-face {
+    font-family: Inter;
+    font-weight: 300;
+    src: url(fonts/Inter-VariableFont_opsz\,wght.ttf);
+}
+@font-face {
+    font-family: Inter;
+    font-weight: 400;
+    src: url(fonts/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+@font-face {
+    font-family: Inter;
+    font-weight: 500;
+    src: url(fonts/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+@font-face {
+    font-family: Inter;
+    font-weight: 600;
+    src: url(fonts/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+@font-face {
+    font-family: Inter;
+    font-weight: 700;
+    src: url(fonts/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+@font-face {
+    font-family: Inter;
+    font-weight: 800;
+    src: url(fonts/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+/* main */
+html {
+    font-family: Inter, Helvetica, Arial, sans-serif;
+}
+
+@media all {
+    body {
+        background-color: rgb(18, 27, 26);
+        color: #fff;
+        background-color: #121111;
+
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .navbar {
+        display: flex;
+        padding: 32px 24px;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 8px;
+        align-self: stretch;
+
+        background: rgba(18, 17, 17, 0.30);
+        background: color(display-p3 0.0706 0.0667 0.0667 / 0.30);
+        backdrop-filter: blur(15px);
+    }
+
+    .navbar .text {
+        padding: 0 32px 0 0;
+    }
+
+    .profile-info {
+        width: 956px;
+
+        display: flex;
+        flex-direction: row;
+        padding: 80px 0px 120px 0px;
+        align-items: center;
+        gap: 32px;
+    }
+
+    .profile-pic {
+        min-width: 230px;
+        min-height: 206px;
+
+        background-image: url(./img/pfp.jpeg);
+        background-size: cover;
+
+        border-radius: 16pt;
+    }
+
+    .info-content {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2rem;
+    }
+
+    .name {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 0.25rem;
+        align-self: stretch;
+    }
+
+    .header {
+        font-family: Inter;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 130%;
+
+        margin: 0;
+        padding: 0;
+    }
+
+    .subheader {
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 26px; /* 108.333% */
+
+        margin: 0;
+        padding: 0;
+
+        color: rgba(255, 255, 255, 0.50);
+        color: color(display-p3 1 1 1 / 0.50);  
+    }
+
+    .text {
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 30px;
+
+        margin: 0;
+        padding: 0;
+    }
+
+    .buttons {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        flex: 1 0 0;
+        align-self: stretch;
+
+        padding: 0;
+    }
+
+    .buttons .cv {
+        width: 100px;
+    }
+
+    .button {
+        width: 200px;
+        height: 82px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        border-radius: 12px;
+        background: rgba(204, 194, 255, 0.15);
+    }
+
+    .portfolio {
+        display: flex;
+        width: 956px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
+    }
+
+    .portfolio .header {
+        align-self: stretch;
+    }
+
+    .cases {
+        margin: 0;
+        padding: 0;
+
+        display: flex;
+        align-items: flex-start;
+        align-content: flex-start;
+        gap: 12px;
+        align-self: stretch;
+        flex-wrap: wrap;
+    }
+
+    .case {
+        background: rgba(204, 194, 255, 0.15);
+
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+
+        display: flex;
+        width: 471px;
+        height: 471px;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 24px;
+    }
+
+    .case-name {
+        display: flex;
+        padding: 60px 60px 16px 60px;
+        flex-direction: column;
+        align-items: center;
+        align-self: stretch;
+        text-align: center;
+    }
+
+    .footer {
+        display: flex;
+        padding: 120px 0px;
+        flex-direction: column;
+        align-items: center;
+        align-self: stretch;
+    }
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 1023px) {
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+}
